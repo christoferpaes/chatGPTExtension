@@ -5,8 +5,8 @@ function extractMathEquation() {
   // Add your parsing logic here to extract the math equation from the webpage
   // You can use the provided HTML structure to guide your parsing process
   // Example:
-  const mathEquationElement = document.querySelector('.questionwrap.questionpane .MathJax-Element-14-Frame');
-  const mathEquation = mathEquationElement.getAttribute('data-mathml');
+  const mathEquationElement = document.querySelector(');
+  const mathEquation = mathEquationElement.getAttribute('');
   return mathEquation;
 }
 
